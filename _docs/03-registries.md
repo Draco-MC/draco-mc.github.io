@@ -9,3 +9,5 @@ However, issues do occur on a technical basis when dealing with registries and w
 
 | `DeferredRegistry` | `BuiltInRegistries` |
 | This is the official method provided by Draco that allows you to defer registring content before the `IRegisterListener` event, it requires register to be done manually once the listener is called, however, it allows for initialization of content before the registry is available for registering content | This method is usually much simpler to interface with and is the vanilla way of doing things, It can from a programmer standpoint make more sense, but comes with the caveat of having issues if initialized before the `IRegisterListener` listener is called. |
+
+For the sake of simplicity we will be using `DeferredRegistry` as this is the simpliest and the officially supported method of registering content with Draco.
