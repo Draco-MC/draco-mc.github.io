@@ -15,3 +15,9 @@ class RegisterEvent : IRegisterListener {
     }
 }
 ```
+
+Listeners have an order of presidence in which they are called, that order goes:<br>
+`COMMON` Listeners<br>
+`SERVER` & `CLIENT` Listeners<br>
+This order will always stay true and is done to ensure that the `IRegisterListener` listener is called in the correct order
+{: .notice--info}
