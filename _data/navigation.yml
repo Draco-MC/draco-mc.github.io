@@ -1,3 +1,25 @@
 main:
-  - title: "About"
-    url: /about/
+  
+
+docs:
+  - children:
+    - title: "Documentation Home"
+      url: docs/main
+  - title: "Fundamentals"
+    children:
+      - title: "Listeners"
+        url: docs/listeners
+      - title: "Registries"
+        url: docs/registries
+  - title: "Minecraft Modding"
+    children:
+      - title: "Create a Custom Item"
+        url: docs/itemcreate
+      - title: "Create a Custom Block"
+        url: docs/blockcreate
+  - title: "Advanced"
+    children:
+      - title: "Custom Transformers"
+        url: docs/transformers
+      - title: "Mod Metadata"
+        url: docs/modmetadata
